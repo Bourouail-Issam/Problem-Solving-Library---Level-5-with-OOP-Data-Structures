@@ -5,6 +5,11 @@ int main()
 {
 	clsDblLinkedList <int> MydblLinkedList;
 
+	MydblLinkedList.InsertAtBeginning(410);
+	MydblLinkedList.InsertAtBeginning(9);
+	MydblLinkedList.InsertAtBeginning(8);
+	MydblLinkedList.InsertAtBeginning(7);
+	MydblLinkedList.InsertAtBeginning(6);
 	MydblLinkedList.InsertAtBeginning(5);
 	MydblLinkedList.InsertAtBeginning(4);
 	MydblLinkedList.InsertAtBeginning(3);
@@ -39,5 +44,7 @@ int main()
 	MydblLinkedList.DeleteLastNode();
 	cout << "\nAfter deleting last node :\n";
 	MydblLinkedList.PrintList();
+
+	cout << "\nSize of linked list is : " << MydblLinkedList.Size();
 
 }

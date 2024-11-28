@@ -5,6 +5,8 @@ using namespace std;
 template <typename T>
 class clsDblLinkedList
 {
+protected:
+	int _Size = 0;
 
 public:
 	class Node
@@ -15,6 +17,7 @@ public:
 		Node* prev;
 	};
 	Node* head = NULL;
+
 
 	void InsertAtBeginning(T value)
 	{
@@ -33,6 +36,7 @@ public:
 			head->prev = new_node;
 
 		head = new_node;
+		_Size++;
 	}
 
 	void PrintList()
@@ -79,6 +83,7 @@ public:
 			current->next->prev = new_node;
 
 		current->next = new_node;
+		_Size++;
 	}
 
 	void InsertAtEnd(T value)
@@ -107,6 +112,7 @@ public:
 			new_node->prev = LastNode;
 			LastNode->next = new_node;
 		}
+		_Size++;
 	}
 
 	void DeleteNode(Node* NodeToDelete)
@@ -129,6 +135,7 @@ public:
 			NodeToDelete->prev->next = NodeToDelete->next;
 
 		delete NodeToDelete;
+		_Size--;
 	}
 
 	void DeleteFirstNode()
@@ -149,6 +156,7 @@ public:
 			head->prev = NULL;
 
 		delete temp;
+		_Size--;
 	}
 
 	void DeleteLastNode()
@@ -184,6 +192,33 @@ public:
 		Node* LastNode = Current->next;
 		Current->next = NULL;
 		delete LastNode;
+		_Size--;
+	}
+
+	//this Algorithme solution for calc size of double linked list is :
+
+	// ##############  BigO is O(n)  ##############
+	//int Size()
+	//{
+	//	if (head == NULL)
+	//		return 0;
+	//
+	//	int counter = 1;
+	//
+	//	Node* current = head;
+	//	while (current->next->next != NULL)
+	//	{
+	//		counter++;
+	//		current = current->next;
+	//	}
+	//	counter++;
+	//	return counter;
+	//}
+
+	// ##############  BigO is O(1)  ##############
+	int Size()
+	{
+		return _Size;
 	}
 };
 
