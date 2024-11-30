@@ -1,6 +1,8 @@
 #include <iostream>
 #include "clsDblLinkedList.h"
 
+using namespace std;
+
 int main()
 {
 	clsDblLinkedList <int> MydblLinkedList;
@@ -45,6 +47,21 @@ int main()
 	cout << "\nAfter deleting last node :\n";
 	MydblLinkedList.PrintList();
 
-	cout << "\nSize of linked list is : " << MydblLinkedList.Size();
+	cout << "\nNumber of items in the linked list = " << MydblLinkedList.Size();
 
+	if (MydblLinkedList.IsEmpty())
+		cout << "\n\nYes List is Empty.\n";
+	else
+		cout << "\n\nNo List is not Empty.\n";
+
+
+	//cout << "\nExecuting .Clear()";
+	//MydblLinkedList.Clear();
+
+	//cout << "\nNumber of items in the linked list = " << MydblLinkedList.Size() << endl;
+
+
+	MydblLinkedList.Reverse();
+	cout << "\nDouble Linked List Content After Reversing  : ";
+	MydblLinkedList.PrintList();
 }

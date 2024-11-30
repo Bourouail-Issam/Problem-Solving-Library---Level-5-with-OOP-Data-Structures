@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <vector>
 using namespace std;
 
 template <typename T>
@@ -219,6 +220,37 @@ public:
 	int Size()
 	{
 		return _Size;
+	}
+
+	bool IsEmpty()
+	{
+		return !_Size;
+	}
+
+	void Clear()
+	{
+
+		while (_Size > 0)
+		{
+			DeleteFirstNode();
+		}
+	}
+
+	void Reverse()
+	{
+		if (head == nullptr || head->next == nullptr) return;
+
+		Node* current = head;
+		Node* temp = nullptr;
+
+		while (current != NULL)
+		{
+			temp = current->prev;
+			current->prev = current->next;
+			current->next = temp;
+			current = current->prev;
+		}
+		head = temp->prev;
 	}
 };
 
