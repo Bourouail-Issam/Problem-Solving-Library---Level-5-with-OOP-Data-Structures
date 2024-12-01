@@ -64,4 +64,28 @@ int main()
 	MydblLinkedList.Reverse();
 	cout << "\nDouble Linked List Content After Reversing  : ";
 	MydblLinkedList.PrintList();
+
+	clsDblLinkedList<int> ::Node* N;
+
+	N = MydblLinkedList.GetNode(5);
+
+	cout << "\nNode Value is : " << N->value << endl << endl;
+	cout << MydblLinkedList.GetNode(0)->value << endl;
+	cout << MydblLinkedList.GetNode(1)->value << endl;
+	cout << MydblLinkedList.GetNode(2)->value << endl;
+
+	cout << "\nItem(2) Value is : " << MydblLinkedList.GetItem(2) << endl;
+
+	MydblLinkedList.PrintList();
+	MydblLinkedList.UpdateItem(33, 566);
+	cout << "\nAfter Updating Item(33) :\n";
+	MydblLinkedList.PrintList();
+
+	MydblLinkedList.UpdateItem(4, 566);
+	cout << "\nAfter Updating Item(4) :\n";
+	MydblLinkedList.PrintList();
+
+	MydblLinkedList.InsertAfter(1, 500);
+	cout << "\nAfter Insert : " << endl;
+	MydblLinkedList.PrintList();
 }

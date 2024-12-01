@@ -252,5 +252,53 @@ public:
 		}
 		head = temp->prev;
 	}
+
+	Node* GetNode(int index)
+	{
+		if (index >= _Size || index < 0 || head == NULL) return nullptr;
+
+		Node* current = head;
+		int counter = 0;
+
+		while (current != NULL)
+		{
+			if (counter++ == index)
+				return current;
+			current = current->next;
+		}
+		return nullptr;
+	}
+
+	T GetItem(int Index)
+	{
+		Node* ItemNode = GetNode(Index);
+
+		if (ItemNode == nullptr)
+			return T();
+		else
+			return ItemNode->value;
+	}
+
+	bool UpdateItem(int index, T NewValue)
+	{
+		Node* nodeToUpdate = GetNode(index);
+
+		if (!nodeToUpdate)
+			return false;
+
+		nodeToUpdate->value = NewValue;
+		return true;
+	}
+
+	bool InsertAfter(int index, int value)
+	{
+		Node* FindNode = GetNode(index);
+
+		if (!FindNode)
+			return false;
+
+		InsertAfter(FindNode, value);
+		return true;
+	}
 };
 
