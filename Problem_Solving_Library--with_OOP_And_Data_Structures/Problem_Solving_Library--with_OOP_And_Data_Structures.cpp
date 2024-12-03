@@ -1,6 +1,8 @@
 #include <iostream>
 #include "clsDblLinkedList.h"
 #include "clsMyQueue.h"
+#include "clsMyStack.h"
+#include "clsDynamicArray.h"
 using namespace std;
 
 int main()
@@ -89,55 +91,119 @@ int main()
 	cout << "\nAfter Insert : " << endl;
 	MydblLinkedList.PrintList();*/
 
-	clsMyQueue <int> MyQueue;
+	//clsMyQueue <int> MyQueue;
 
-	MyQueue.push(10);
-	MyQueue.push(20);
-	MyQueue.push(30);
-	MyQueue.push(40);
-	MyQueue.push(50);
+	//MyQueue.push(10);
+	//MyQueue.push(20);
+	//MyQueue.push(30);
+	//MyQueue.push(40);
+	//MyQueue.push(50);
 
-	cout << "\nQueue : \n";
-	MyQueue.Print();
+	//cout << "\nQueue : \n";
+	//MyQueue.Print();
 
-	cout << "\nQueue Size : " << MyQueue.Size();
-	cout << "\nQueue front : " << MyQueue.front();
-	cout << "\nQueue back : " << MyQueue.back();
+	//cout << "\nQueue Size : " << MyQueue.Size();
+	//cout << "\nQueue front : " << MyQueue.front();
+	//cout << "\nQueue back : " << MyQueue.back();
 
-	MyQueue.pop();
-	cout << "\n\nQueue after pop() : \n";
-	MyQueue.Print();
+	//MyQueue.pop();
+	//cout << "\n\nQueue after pop() : \n";
+	//MyQueue.Print();
 
-	// Extension #1
-	cout << "\n\nItem(2) : " << MyQueue.GetTtem(2);
+	//// Extension #1
+	//cout << "\n\nItem(2) : " << MyQueue.GetTtem(2);
 
-	// Extension #2
-	MyQueue.Reverse();
-	cout << "\n\nQueue after reverse() : \n";
-	MyQueue.Print();
+	//// Extension #2
+	//MyQueue.Reverse();
+	//cout << "\n\nQueue after reverse() : \n";
+	//MyQueue.Print();
 
-	// Extension #3
-	MyQueue.UpDateItem(2, 600);
-	cout << "\n\nQueue after Updating Item(2) to 600 : \n";
-	MyQueue.Print();
+	//// Extension #3
+	//MyQueue.UpDateItem(2,600);
+	//cout << "\n\nQueue after Updating Item(2) to 600 : \n";
+	//MyQueue.Print();
 
-	// Extension #4
-	MyQueue.InserAfter(2, 800);
-	cout << "\n\nQueue after Inserting 800 after Item(2) : \n";
-	MyQueue.Print();
+	//// Extension #4
+	//MyQueue.InserAfter(2, 800);
+	//cout << "\n\nQueue after Inserting 800 after Item(2) : \n";
+	//MyQueue.Print();
 
-	// Extension #5
-	MyQueue.InsertAtFront(1000);
-	cout << "\n\nQueue after Inserting 1000 at front : \n";
-	MyQueue.Print();
+	//// Extension #5
+	//MyQueue.InsertAtFront(1000);
+	//cout << "\n\nQueue after Inserting 1000 at front : \n";
+	//MyQueue.Print();
 
-	// Extension #6
-	MyQueue.InsertAtBack(2000);
-	cout << "\n\nQueue after Inserting 2000 at back : \n";
-	MyQueue.Print();
+	//// Extension #6
+	//MyQueue.InsertAtBack(2000);
+	//cout << "\n\nQueue after Inserting 2000 at back : \n";
+	//MyQueue.Print();
 
-	// Extension #6
-	MyQueue.Clear();
-	cout << "\n\nQueue after Clear() : \n";
-	MyQueue.Print();
+	//// Extension #6
+	//MyQueue.Clear();
+	//cout << "\n\nQueue after Clear() : \n";
+	//MyQueue.Print();
+
+
+clsMyStack <int> MyStack;
+
+MyStack.push(10);
+MyStack.push(20);
+MyStack.push(30);
+MyStack.push(40);
+MyStack.push(50);
+
+cout << "\nStack : \n";
+MyStack.Print();
+
+cout << "\nStack Size : " << MyStack.Size();
+cout << "\nStack Top : " << MyStack.Top();
+cout << "\nStack Bottom : " << MyStack.Bottom();
+
+MyStack.pop();
+cout << "\n\nStack after pop() : \n";
+MyStack.Print();
+
+// Extension #1
+cout << "\n\nItem(2) : " << MyStack.GetTtem(2);
+
+// Extension #2
+MyStack.Reverse();
+cout << "\n\nStack after reverse() : \n";
+MyStack.Print();
+
+// Extension #3
+MyStack.UpDateItem(2, 600);
+cout << "\n\nStack after Updating Item(2) to 600 : \n";
+MyStack.Print();
+
+// Extension #4
+MyStack.InserAfter(2, 800);
+cout << "\n\nStack after Inserting 800 after Item(2) : \n";
+MyStack.Print();
+
+// Extension #5
+MyStack.InsertAtFront(1000);
+cout << "\n\nStack after Inserting 1000 at front : \n";
+MyStack.Print();
+
+// Extension #6
+MyStack.InsertAtBack(2000);
+cout << "\n\nStack after Inserting 2000 at back : \n";
+MyStack.Print();
+
+// Extension #6
+MyStack.Clear();
+cout << "\n\nStack after Clear() : \n";
+MyStack.Print();
+
+clsDynamicArray <int> MyDynamicArray(1);
+
+MyDynamicArray.SetItem(0, 10);
+
+
+cout << "\nIs Empty : " << MyDynamicArray.IsEmpty();
+cout << "\nArray Size : " << MyDynamicArray.Size();
+cout << "\nArray Items : ";
+MyDynamicArray.PrintList();
+
 }
