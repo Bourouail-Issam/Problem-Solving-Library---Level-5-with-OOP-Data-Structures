@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueueArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsMyQueueArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyStackArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsMyStackArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:Problem_Solving_Library--with_OOP_And_Data_Structures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsDynamicArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsDynamicArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsMyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueueArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsMyQueueArr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsMyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7E82E7E1-3981-48BC-9EB0-11FE9F0F6B26}|Problem_Solving_Library--with_OOP_And_Data_Structures.vcxproj|solutionrelative:clsMyStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 312,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +46,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Problem_Solving_Library--with_OOP_And_Data_Structures.cpp",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures.cpp",
+              "RelativeDocumentMoniker": "Problem_Solving_Library--with_OOP_And_Data_Structures.cpp",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures.cpp",
+              "RelativeToolTip": "Problem_Solving_Library--with_OOP_And_Data_Structures.cpp",
+              "ViewState": "AQIAADsBAAAAAAAAAAAUwG8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T21:54:16.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsMyStackArr.h",
+              "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyStackArr.h",
+              "RelativeDocumentMoniker": "clsMyStackArr.h",
+              "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyStackArr.h",
+              "RelativeToolTip": "clsMyStackArr.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T21:53:58.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "clsMyQueueArr.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueueArr.h",
               "RelativeDocumentMoniker": "clsMyQueueArr.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueueArr.h",
               "RelativeToolTip": "clsMyQueueArr.h",
-              "ViewState": "AQIAADAAAAAAAAAAAAAIwDsAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-04T10:18:00.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "clsDynamicArray.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsDynamicArray.h",
               "RelativeDocumentMoniker": "clsDynamicArray.h",
@@ -59,11 +93,12 @@
               "RelativeToolTip": "clsDynamicArray.h",
               "ViewState": "AQIAANYAAAAAAAAAAAAgwP0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T03:32:37.714Z"
+              "WhenOpened": "2024-12-03T03:32:37.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "clsMyStack.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyStack.h",
               "RelativeDocumentMoniker": "clsMyStack.h",
@@ -71,23 +106,25 @@
               "RelativeToolTip": "clsMyStack.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-03T03:31:39.092Z"
+              "WhenOpened": "2024-12-03T03:31:39.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "clsMyQueue.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueue.h",
               "RelativeDocumentMoniker": "clsMyQueue.h",
               "ToolTip": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsMyQueue.h",
               "RelativeToolTip": "clsMyQueue.h",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwB8AAAACAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-01T22:17:06.491Z"
+              "WhenOpened": "2024-12-01T22:17:06.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "clsDblLinkedList.h",
               "DocumentMoniker": "D:\\OneDrive\\Programming Advices\\GitHub Project\\Problem _Solving_Level_5_OOP_Data Structures\\Problem_Solving_Library--with_OOP_And_Data_Structures\\clsDblLinkedList.h",
               "RelativeDocumentMoniker": "clsDblLinkedList.h",
@@ -95,7 +132,8 @@
               "RelativeToolTip": "clsDblLinkedList.h",
               "ViewState": "AQIAAAUBAAAAAAAAAAAkwDABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T17:39:44.764Z"
+              "WhenOpened": "2024-11-28T17:39:44.764Z",
+              "EditorCaption": ""
             }
           ]
         },
