@@ -162,6 +162,7 @@ public:
 		}
 		return false;
 	}
+
 	bool DeleteLastItem()
 	{
 		if (_Size > 0)
@@ -174,10 +175,12 @@ public:
 
 	int Find(T value)
 	{
-		for (int i = 0; i < _Size; i++)
-		{
-			if (value == OriginalArray[i])
-				return i;
+		if (_Size >= 1) {
+			for (int i = 0; i < _Size; i++)
+			{
+				if (value == OriginalArray[i])
+					return i;
+			}
 		}
 		return -1;
 	}
@@ -192,5 +195,59 @@ public:
 		}
 		return false;
 	}
+
+	bool InsertAt(int index, T value)
+	{
+		if (index <= _Size || index >= 0)
+		{
+			++_Size;
+			_TempArray = new T[_Size];
+
+			int counter = 0;
+			for (int i = 0; i < _Size; i++)
+			{
+				if (i == index)
+				{
+					_TempArray[i] = value;
+					continue;
+				}
+				_TempArray[i] = OriginalArray[counter];
+				++counter;
+			}
+
+			delete[] OriginalArray;
+			OriginalArray = _TempArray;
+			return true;
+		}
+		return false;
+	}
+
+	bool InsertAtBeginning(T value)
+	{
+		return InsertAt(0, value);
+	}
+
+
+	bool InsertBefore(int index, T value)
+	{
+		if (index < 1)
+			return InsertAt(0, value);
+		else
+			return InsertAt(index - 1, value);
+	}
+
+	bool InsertAfter(int index, T value)
+	{
+		if (index >= _Size)
+			return InsertAt(_Size - 1, value);
+		else
+			return InsertAt(index + 1, value);
+	}
+
+	bool InsertAtEnd(T value)
+	{
+		return InsertAt(_Size, value);
+	}
+
 };
 
