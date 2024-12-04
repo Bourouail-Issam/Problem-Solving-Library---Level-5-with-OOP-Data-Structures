@@ -145,58 +145,58 @@ int main()
 	//cout << "\n\nQueue after Clear() : \n";
 	//MyQueue.Print();
 
-//
-//clsMyStack <int> MyStack;
-//
-//MyStack.push(10);
-//MyStack.push(20);
-//MyStack.push(30);
-//MyStack.push(40);
-//MyStack.push(50);
-//
-//cout << "\nStack : \n";
-//MyStack.Print();
-//
-//cout << "\nStack Size : " << MyStack.Size();
-//cout << "\nStack Top : " << MyStack.Top();
-//cout << "\nStack Bottom : " << MyStack.Bottom();
-//
-//MyStack.pop();
-//cout << "\n\nStack after pop() : \n";
-//MyStack.Print();
-//
-//// Extension #1
-//cout << "\n\nItem(2) : " << MyStack.GetTtem(2);
-//
-//// Extension #2
-//MyStack.Reverse();
-//cout << "\n\nStack after reverse() : \n";
-//MyStack.Print();
-//
-//// Extension #3
-//MyStack.UpDateItem(2, 600);
-//cout << "\n\nStack after Updating Item(2) to 600 : \n";
-//MyStack.Print();
-//
-//// Extension #4
-//MyStack.InserAfter(2, 800);
-//cout << "\n\nStack after Inserting 800 after Item(2) : \n";
-//MyStack.Print();
-//
-//// Extension #5
-//MyStack.InsertAtFront(1000);
-//cout << "\n\nStack after Inserting 1000 at front : \n";
-//MyStack.Print();
-//
-//// Extension #6
-//MyStack.InsertAtBack(2000);
-//cout << "\n\nStack after Inserting 2000 at back : \n";
-//MyStack.Print();
-//
-//// Extension #6
-//MyStack.Clear();
-//cout << "\n\nStack after Clear() : \n";
-//MyStack.Print();
+	//
+    //clsMyStack <int> MyStack;
+    //
+    //MyStack.push(10);
+    //MyStack.push(20);
+    //MyStack.push(30);
+    //MyStack.push(40);
+    //MyStack.push(50);
+    //
+    //cout << "\nStack : \n";
+    //MyStack.Print();
+    //
+    //cout << "\nStack Size : " << MyStack.Size();
+    //cout << "\nStack Top : " << MyStack.Top();
+    //cout << "\nStack Bottom : " << MyStack.Bottom();
+    //
+    //MyStack.pop();
+    //cout << "\n\nStack after pop() : \n";
+    //MyStack.Print();
+    //
+    //// Extension #1
+    //cout << "\n\nItem(2) : " << MyStack.GetTtem(2);
+    //
+    //// Extension #2
+    //MyStack.Reverse();
+    //cout << "\n\nStack after reverse() : \n";
+    //MyStack.Print();
+    //
+    //// Extension #3
+    //MyStack.UpDateItem(2, 600);
+    //cout << "\n\nStack after Updating Item(2) to 600 : \n";
+    //MyStack.Print();
+    //
+    //// Extension #4
+    //MyStack.InserAfter(2, 800);
+    //cout << "\n\nStack after Inserting 800 after Item(2) : \n";
+    //MyStack.Print();
+    //
+    //// Extension #5
+    //MyStack.InsertAtFront(1000);
+    //cout << "\n\nStack after Inserting 1000 at front : \n";
+    //MyStack.Print();
+    //
+    //// Extension #6
+    //MyStack.InsertAtBack(2000);
+    //cout << "\n\nStack after Inserting 2000 at back : \n";
+    //MyStack.Print();
+    //
+    //// Extension #6
+    //MyStack.Clear();
+    //cout << "\n\nStack after Clear() : \n";
+    //MyStack.Print();
 
 	clsDynamicArray <int> MyDynamicArray(5);
 
@@ -216,22 +216,48 @@ int main()
 	//cout << "\nArray Size : " << MyDynamicArray.Size();
 	//cout << "\nArray Items after resize to 2 : \n";
 	//MyDynamicArray.PrintList();\
-	//
+    //
 	//MyDynamicArray.Resize(10);
 	//cout << "\nArray Size : " << MyDynamicArray.Size();
 	//cout << "\nArray Items after resize to 10 : \n";
 	//MyDynamicArray.PrintList();
 
-	cout << "\nItem(2) : " << MyDynamicArray.GetItem(-3) << endl;
+	cout << "\n\nItem(2) : " << MyDynamicArray.GetItem(2) << endl;
 
-	MyDynamicArray.Reverse();
+	//MyDynamicArray.Reverse();
+	//cout << "\nArray Items after reverse : \n";
+	//MyDynamicArray.PrintList();
 
-	cout << "\nArray Items after reverse : \n";
+	//MyDynamicArray.Clear();
+	//cout << "\nArray Items after Clear : \n";
+	//MyDynamicArray.PrintList();
+
+	MyDynamicArray.DeleteItemAt(2);
+	cout << "\n\nArray Items after deleting item(2) : ";
+	cout << "\nArray Size : " << MyDynamicArray.Size() << endl;
 	MyDynamicArray.PrintList();
 
-	MyDynamicArray.Clear();
-	cout << "\nArray Items after Clear : \n";
+	MyDynamicArray.DeleteFirstItem();
+	cout << "\n\nArray Items after deleting FirstItem : ";
+	cout << "\nArray Size : " << MyDynamicArray.Size() << endl;
 	MyDynamicArray.PrintList();
 
-	system("pause>0");
+	MyDynamicArray.DeleteLastItem();
+	cout << "\n\nArray Items after deleting LastItem : ";
+	cout << "\nArray Size : " << MyDynamicArray.Size() << endl;
+	MyDynamicArray.PrintList();
+
+	int Index = MyDynamicArray.Find(30);
+
+	if (-1 == Index)
+		cout << "\nItem was not Found : -(\n";
+	else
+		cout << "\n30 is Found at index : " << Index;
+
+	MyDynamicArray.DeleteItem(30);
+	cout << "\n\nArray Size : " << MyDynamicArray.Size();
+	cout << "\nArray Items after deleting 30 : ";
+	MyDynamicArray.PrintList();
+
+	//system("pause>0");
 }
